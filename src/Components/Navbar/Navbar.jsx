@@ -104,13 +104,13 @@ const Navbar = () => {
                                                     animate={{ opacity: 1, y: 0 }}
                                                     exit={{ opacity: 0, y: 10 }}
                                                     transition={{ duration: 0.2 }}
-                                                    className="absolute top-full left-0 mt-2 w-48 bg-card rounded-xl shadow-buynest-lg overflow-hidden"
+                                                    className="absolute bg-base-100 top-full left-0 mt-2 w-48 bg-card rounded-xl shadow-buynest-lg overflow-hidden"
                                                 >
                                                     {categories.map((category) => (
                                                         <Link
                                                             key={category}
                                                             to={`/categories/${category.toLowerCase()}`}
-                                                            className="block px-4 py-3 text-foreground hover:bg-muted hover:text-primary transition-colors duration-200"
+                                                            className="block px-4 py-3 text-secondary hover:bg-muted hover:text-primary transition-colors duration-200"
                                                         >
                                                             {category}
                                                         </Link>
