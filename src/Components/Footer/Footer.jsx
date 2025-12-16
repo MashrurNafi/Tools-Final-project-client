@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="border-b border-secondary-foreground/10 px-2 md:px-0">
                 <div className="container mx-auto py-8 lg:px-10">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        <Fade direction="up" triggerOnce>
+                        <Fade direction="up"  >
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
                                     <FiTruck className="text-primary text-xl hover:animate-bounce transition-all hover:text-white" />
@@ -53,7 +53,7 @@ const Footer = () => {
                             </div>
                         </Fade>
 
-                        <Fade direction="up" delay={100} triggerOnce>
+                        <Fade direction="up" delay={100}  >
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
                                     <FiShield className="text-primary text-xl hover:animate-bounce transition-all hover:text-white" />
@@ -67,7 +67,7 @@ const Footer = () => {
                             </div>
                         </Fade>
 
-                        <Fade direction="up" delay={200} triggerOnce>
+                        <Fade direction="up" delay={200}  >
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
                                     <FiHeadphones className="text-primary text-xl hover:animate-bounce transition-all hover:text-white" />
@@ -81,7 +81,7 @@ const Footer = () => {
                             </div>
                         </Fade>
 
-                        <Fade direction="up" delay={300} triggerOnce>
+                        <Fade direction="up" delay={300}  >
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
                                     <FiCreditCard className="text-primary text-xl hover:animate-bounce transition-all hover:text-white" />
