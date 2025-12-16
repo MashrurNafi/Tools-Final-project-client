@@ -7,12 +7,14 @@ import BrandMarquee from './Components/BrandMarquee';
 import FeaturesSection from './Components/FeaturesSection';
 import { ScrollRestoration } from 'react-router';
 import CategoriesSection from './Components/CategoriesSection';
+import OurProductsSection from './Components/OurProductsSection';
 
 const HomePage = () => {
     return (
         <div>
             <HeroSection></HeroSection>
             <CategoriesSection></CategoriesSection>
+            <OurProductsSection></OurProductsSection>
             <FeaturesSection></FeaturesSection>
             <BrandMarquee></BrandMarquee>
             <StatsSection></StatsSection>
